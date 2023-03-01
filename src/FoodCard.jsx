@@ -8,7 +8,7 @@ export function FoodCard({ foods, onAdd, SelectedItems }) {
       <img className="food-image" src={foods.image} alt={foods.title} />
       <h6 className="food-title">{foods.title}</h6>
       <h6>⭐⭐⭐⭐</h6>
-      <h6 className="food-cost">{foods.cost}</h6>
+      <h6 className="food-cost">Rs {foods.cost}</h6>
 
       <button className="addtocart" disabled={SelectedItems.includes(foods.id)} onClick={() => onAdd(foods, foods.id)}>
         Add to Cart

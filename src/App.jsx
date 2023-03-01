@@ -11,25 +11,25 @@ function App() {
     {
       id: "1",
       title: "Burger",
-      cost: "200",
+      cost: "30",
       image:"https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246__480.jpg"
     },
     {
       id: "2",
-      title: "Biriyani",
-      cost: "200",
+      title: "Cake",
+      cost: "600",
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxuJzF8kyfRQgoYTQ1l_8WuPz3n45V_XKJgg&usqp=CAU"
     },
     {
       id: "3",
-      title: "Biriyani",
-      cost: "200",
+      title: "Fried Rice",
+      cost: "100",
       image:"http://cookwithnabeela.com/wp-content/uploads/2021/08/Veg_Fried_Rice_Web_1.jpg"
     },
     {
       id: "4",
-      title: "Biriyani",
-      cost: "200",
+      title: "Dosa",
+      cost: "50",
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlYGK4uMqdveTidY8cLB5Va8AoPEYZkvkPMg&usqp=CAU"
     },
   ];
